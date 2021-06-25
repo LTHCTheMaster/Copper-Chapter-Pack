@@ -1,0 +1,46 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:copper_block"
+      },
+      "title": "Electro zoom",
+      "description": "Get a stack of copper block for a really cool reward",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "lthc.chapter.ores.copper:sequel/start",
+    "criteria": {
+      "unlock": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "lthc.chapter.ores.copper:sequel/start": true
+                  }
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:copper_block"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 500,
+      "function": "lthc.chapter.ores.copper:next_reward"
+    }
+  }

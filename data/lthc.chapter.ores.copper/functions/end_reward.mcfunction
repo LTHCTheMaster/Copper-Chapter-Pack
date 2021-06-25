@@ -1,0 +1,1 @@
+give @s barrel{display:{Name:'{"text":"Copper","color":"dark_red","bold":true,"italic":false,"underlined":true}'},BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:copper_block",Count:64b},{Slot:8b,id:"minecraft:copper_block",Count:64b},{Slot:18b,id:"minecraft:copper_block",Count:64b},{Slot:26b,id:"minecraft:copper_block",Count:64b}]}} 1
