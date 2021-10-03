@@ -4,7 +4,7 @@
             "item": "minecraft:copper_ingot"
         },
         "title": "Copper",
-        "description": "1.0.1 version",
+        "description": "1.1 version",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
